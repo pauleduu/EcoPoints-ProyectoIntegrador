@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#e2dccf"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/mclovin"
+        android:contentDescription="@string/nav_header_desc" />
+
+    <TextView
+        android:id="@+id/txtNombreUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/nav_header_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nav_header_subtitle"
+        android:textColor="@android:color/black" />
+</LinearLayout>

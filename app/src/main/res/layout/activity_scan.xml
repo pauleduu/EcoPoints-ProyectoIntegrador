@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#344E41">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewBorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inria_serif"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="7"
+            android:text="ESCANEO DE CODIGO QR"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewReal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inria_serif"
+            android:gravity="center"
+            android:text="ESCANEO DE CODIGO QR"
+            android:textColor="#DAD7CD"
+            android:textSize="18sp"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intrucciones para comenzar a ganar puntos:"
+        android:fontFamily="@font/inria_serif"
+        android:textColor="#A3B18A"
+        android:textSize="16.9sp"
+        android:focusable="true"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="1. Reúne dispositivos electrónicos que ya no sirvan y que puedas reciclar"
+        android:textAlignment="center"
+        android:textColor="#BFC4AC"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="2. En tu App EcoPoints, localiza los centros de recolección y dirígete al que te quede más cerca"
+        android:textAlignment="center"
+        android:textColor="#BFC4AC"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="3. Localiza un código QR en el centro de recolección, está ubicado a la vista"
+        android:textAlignment="center"
+        android:textColor="#BFC4AC"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="4. En tu aplicación EcoPoints, abre el menú lateral y selecciona la opción 'Escanear'"
+        android:textAlignment="center"
+        android:textColor="#BFC4AC"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="5. Presiona el botón 'Iniciar' y apunta con tu cámara al código QR"
+        android:textAlignment="center"
+        android:textColor="#BFC4AC"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:padding="8dp"
+        android:text="Listo, recuerda que tienes que escanear el código una vez por dispositivo :)"
+        android:textAlignment="center"
+        android:textColor="#BFC4AC"
+        android:textSize="15sp" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <Button
+        android:id="@+id/btnEscanear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#588157"
+        android:text="Iniciar"
+        android:fontFamily="@font/roboto"
+        android:textColor="#DAD7CD" />
+
+</LinearLayout>

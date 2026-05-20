@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#344E41"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:gravity="bottom|center"
+        android:text="Iniciar Sesion"
+        android:fontFamily="@font/inria_serif"
+        android:textColor="#DAD7CD"
+        android:textSize="33sp"
+        tools:ignore="HardcodedText"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/TextV_codigo"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#DAD7CD"
+        android:fontFamily="@font/roboto"
+        android:hint="  Codigo"
+        android:inputType="number"
+        android:textColorHint="#696968"
+        android:textColor="#696968"
+        android:maxLength="9" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <EditText
+        android:id="@+id/TextV_contraseña"
+        android:layout_width="348dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints=""
+        android:background="#DAD7CD"
+        android:fontFamily="@font/roboto"
+        android:hint="  Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#696968"
+        android:textColor="#696968"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_mostrar_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar contraseña"
+        android:textColor="#DAD7CD"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/Btn_iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#588157"
+        android:text="INICIAR"
+        android:fontFamily="@font/roboto"
+        android:textColor="#000000"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <View
+        android:id="@+id/linea"
+        android:layout_width="348dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#DAD7CD"/>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="¿Todavía no te registras?"
+        android:textColor="#DAD7CD"
+        android:textSize="18sp"/>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#588157"
+        android:text="Registrarse"
+        android:fontFamily="@font/roboto"
+        android:textColor="#DAD7CD"/>
+
+</LinearLayout>

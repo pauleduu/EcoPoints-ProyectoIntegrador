@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProyectoIntegrador" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="titleTextAppearance">@style/ToolbarTitleText</item>
+    </style>
+
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="fontFamily">@font/inria_serif</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

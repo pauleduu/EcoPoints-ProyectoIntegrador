@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/nav_scan"
+        android:title="Escanear" />
+
+    <item
+        android:id="@+id/nav_puntuaciones"
+        android:title="Puntuaciones" />
+
+    <item
+        android:id="@+id/nav_rewards"
+        android:title="Recompensa del Mes"/>
+
+    <item
+        android:id="@+id/nav_next"
+        android:title="¿Qué pasa después?"/>
+
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contáctanos"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Cerrar Sesión" />
+
+</menu>

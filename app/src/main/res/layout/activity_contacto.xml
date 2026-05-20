@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#344E41">
+
+    <TextView
+        android:id="@+id/text_contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Contáctanos"
+        android:fontFamily="@font/inria_serif"
+        android:textColor="#A3B18A"
+        android:textSize="30sp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#344E41"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/tres"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gregorio Salazar Solis"
+                android:textColor="#F0EFEB"
+                android:textSize="18sp"
+                android:fontFamily="@font/inria_serif"/>
+
+            <TextView
+                android:id="@+id/correo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: gregorio.salazar6699@alumnos.udg.mx"
+                android:textColor="#DAD7CD"
+                android:textSize="13.5sp"
+                android:fontFamily="@font/inria_serif"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#344E41"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/dos"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zaira Torres Buenrostro"
+                android:textColor="#F0EFEB"
+                android:textSize="18sp"
+                android:fontFamily="@font/inria_serif"/>
+
+            <TextView
+                android:id="@+id/correo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: zaira.torres4261@alumnos.udg.mx"
+                android:textColor="#DAD7CD"
+                android:textSize="13.5sp"
+                android:fontFamily="@font/inria_serif"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="#344E41"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="12dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/uno"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombre3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paul Eduardo Alvarez Ambrosio"
+                android:textColor="#F0EFEB"
+                android:textSize="18sp"
+                android:fontFamily="@font/inria_serif"/>
+
+            <TextView
+                android:id="@+id/correo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: paul.alvarez5537@alumnos.udg.mx"
+                android:textColor="#DAD7CD"
+                android:textSize="13.5sp"
+                android:fontFamily="@font/inria_serif"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"/>
+
+    <TextView
+        android:id="@+id/text_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Comunicate para conocer tus  quejas o sugerencias"
+        android:fontFamily="@font/inria_serif"
+        android:textColor="#A3B18A"
+        android:textSize="20sp"/>
+
+</LinearLayout>

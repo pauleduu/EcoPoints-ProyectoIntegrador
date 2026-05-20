@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#344E41"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="¿Qué pasa después?"
+        android:textColor="#DAD7CD"
+        android:textSize="30sp"
+        android:fontFamily="@font/inria_serif"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="53dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#588157"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporte Reciclado Enero 2025"
+                android:textColor="#003459"
+                android:textSize="18sp"
+                android:fontFamily="@font/inria_serif"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnDescargarPDFenero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descargar"
+                android:backgroundTint="#283618"
+                android:textColor="#DAD7CD"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#588157"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporte Reciclado Febrero 2025"
+                android:textColor="#003459"
+                android:textSize="17.7sp"
+                android:fontFamily="@font/inria_serif"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnDescargarPDFfebrero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descargar"
+                android:backgroundTint="#283618"
+                android:textColor="#DAD7CD"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#588157"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporte Reciclado Marzo 2025"
+                android:textColor="#003459"
+                android:textSize="18sp"
+                android:fontFamily="@font/inria_serif"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnDescargarPDFmarzo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descargar"
+                android:backgroundTint="#283618"
+                android:textColor="#DAD7CD"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#588157"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporte Reciclado Abril 2025"
+                android:textColor="#003459"
+                android:textSize="18sp"
+                android:fontFamily="@font/inria_serif"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btnDescargarPDFabril"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descargar"
+                android:backgroundTint="#283618"
+                android:textColor="#DAD7CD"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

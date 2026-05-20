@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#344E41"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:fontFamily="@font/inria_serif"
+        android:gravity="bottom|center"
+        android:text="La recompensa del mes es..."
+        android:textColor="#A3B18A"
+        android:textSize="29sp"
+        tools:ignore="HardcodedText"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewBorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="$100 PESOS DE VALOR EN COMIDA*"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="7"
+            tools:ignore="HardcodedText"/>
+
+        <TextView
+            android:id="@+id/textViewReal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="$100 PESOS DE VALOR EN COMIDA*"
+            android:textColor="#A3B18A"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"/>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="*aplica solo para locales dentro de CUCEI"
+        android:textColor="#A3B18A"
+        android:textSize="12sp"
+        tools:ignore="HardcodedText"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/comida"
+        tools:ignore="ContentDescription,ImageContrastCheck,VisualLintBounds"/>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="El ganador será anunciado dentro de "
+        android:textColor="#DAD7CD"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"/>
+
+    <TextView
+        android:id="@+id/textViewContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Cargando tiempo..."
+        android:textColor="#E91E63"
+        android:textSize="19sp"
+        tools:ignore="HardcodedText"/>
+
+</LinearLayout>
