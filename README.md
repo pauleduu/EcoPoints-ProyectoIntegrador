@@ -37,7 +37,7 @@ participar, al final del mes la persona que más puntos genero ganaría algún "
 * **Recompensa del mes:** La idea es que cada mes de calendario, exista la oportunidad de que los usuarios ganen una recompensa. En esta sección se muestra cual es la recompensa que los desarrolladores decidieron dar
   y el tiempo restante del mes (mostrado con un contador) para que sepan el tiempo que les queda para sumar la máxima cantidad de puntos posibles
   
-![Recompensa](img/recompensa.png) 
+![Recompensa](img/img/recompensa.png) 
 
 
 * **¿Que pasa después?:** Con el objetivo de que los usuarios sepan que pasa con los residuos electrónicos que se juntaron, su subirán a la app reportes mensuales sobre datos del programa, es decir, cuanto se juntó, por cuando se vendió,
